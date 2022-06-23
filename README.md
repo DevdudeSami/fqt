@@ -1,2 +1,2 @@
 # fqt
-**F**untional **Q**uantum **T**oolchain
+**F**unctional **Q**uantum **T**oolchain
