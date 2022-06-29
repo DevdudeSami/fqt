@@ -38,6 +38,7 @@ library
       QCGrovers
       QFT
       QCMath
+      QCTesting
   other-modules:
       Paths_fqt
   hs-source-dirs:
@@ -46,6 +47,7 @@ library
       src/compiler
       src/circuits
       src/circuits/math
+      src/testing
   build-depends:
       MissingH
     , array >=0.5.4
@@ -88,7 +90,6 @@ test-suite fqt-test
   type: exitcode-stdio-1.0
   main-is: Spec.hs
   other-modules:
-      QCTesting
       QCTestSuites
       Paths_fqt
   hs-source-dirs:

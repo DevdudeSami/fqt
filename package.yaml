@@ -40,6 +40,7 @@ library:
   - src/compiler
   - src/circuits
   - src/circuits/math
+  - src/testing  
 
 executables:
   fqt-exe:

@@ -89,6 +89,7 @@ inverse S' = S
 inverse (R theta) = R (-theta)
 inverse (Rm m) = Rm (-m)
 inverse (Swap t) = Swap t
+inverse UnconX = UnconX
 
 preprocessGate :: GateApplication -> [GateApplication]
 preprocessGate (GateApplication (Swap t1) t0 cs i) = concatMap preprocessGate [
