@@ -6,12 +6,12 @@ cabal-version: 1.12
 
 name:           fqt
 version:        0.1.0.0
-description:    Please see the README on GitHub at <https://github.com/githubuser/fqt#readme>
-homepage:       https://github.com/githubuser/fqt#readme
-bug-reports:    https://github.com/githubuser/fqt/issues
-author:         Author name here
-maintainer:     example@example.com
-copyright:      2022 Author name here
+description:    Please see the README on GitHub at <https://github.com/DevdudeSami/fqt>
+homepage:       https://github.com/DevdudeSami/fqt#readme
+bug-reports:    https://github.com/DevdudeSami/fqt/issues
+author:         Youssef Moawad
+maintainer:     y.moawad.1@research.gla.ac.uk
+copyright:      (c) Youssef Moawad
 license:        BSD3
 license-file:   LICENSE
 build-type:     Simple
@@ -21,7 +21,7 @@ extra-source-files:
 
 source-repository head
   type: git
-  location: https://github.com/githubuser/fqt
+  location: https://github.com/DevdudeSami/fqt
 
 library
   exposed-modules:
@@ -32,7 +32,7 @@ library
       QCHelpers
       QCSplitter
       QWMEngine
-      OCLGenerator
+      QPCompiler
       SQCParser
       EntCircuits
       QCGrovers

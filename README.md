@@ -93,6 +93,7 @@ square4TestSuite = let
 - To get started clone the repo and run `stack build`. 
 - To run the tests, run `stack test`.
 - To run the main file: `stack run`.
+- Generate docs: `stack haddock`.
 
 # Using the eDSL
 
