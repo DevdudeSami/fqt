@@ -30,7 +30,7 @@ library
       LogicQCSimulator
       QCEDSL
       QCHelpers
-      QCSplitter
+      QCSpecialiser
       QWMEngine
       QPCompiler
       SQCParser
