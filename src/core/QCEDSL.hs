@@ -59,7 +59,9 @@ module QCEDSL (
 	
 	readOneResultFromState :: Int -> State -> String
 	readOneResultFromState n state = let
-		resIndex = fromJust $ findOneResult state
+		resIndex = case findOneResult state 
+			of Just i -> i
+			   Nothing -> traceShow state (error "readOneResultFromState: no result found")
 		bitString = reverse $ intToBitString resIndex
 		in if length bitString < n then bitString ++ replicate (n - length bitString) '0' else bitString
 

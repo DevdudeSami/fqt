@@ -38,6 +38,7 @@ library
       QCGrovers
       QFT
       QCMath
+      QFTAdder
       QCTesting
   other-modules:
       Paths_fqt
@@ -91,6 +92,7 @@ test-suite fqt-test
   main-is: Spec.hs
   other-modules:
       QCTestSuites
+      QFTAdderTestSuites
       Paths_fqt
   hs-source-dirs:
       test

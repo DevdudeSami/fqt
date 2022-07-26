@@ -1,5 +1,6 @@
 import QCTesting
 import QCTestSuites
+import QFTAdderTestSuites
 import Helpers
 
 {-|
@@ -7,8 +8,10 @@ import Helpers
 -}
 main :: IO ()
 main = do
-	runQCTestSuites True mathTestSuites
-	runQCTestSuites True registerShiftTestSuites
+	runQCTestSuite False qftFullAdderTestSuite -- Cannot use the logic-based simulator for QFT adder.
+	runQCTestSuites False specialisedQFTFullAdderTestSuites
+	-- runQCTestSuites True mathTestSuites
+	-- runQCTestSuites True registerShiftTestSuites
 	-- runAllTests
 
 runAllTests :: IO ()
